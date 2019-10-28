@@ -1,0 +1,91 @@
+body { 
+	font-family: sans, ubuntu;
+}
+
+h1 { 
+	font-variant: small-caps;
+}
+
+dt { 
+	padding: 0.25em; 
+	background-color: #e0e0e0;
+	font-size: 1.1em;
+	border-bottom: 1px gray solid; 
+	font-variant: small-caps; 
+}
+
+dd { 
+	padding: 0.15em 0.25em; 
+	margin-bottom: 0.50em; 
+	font-family: sans, helvetica; 
+}
+		
+ul { 
+	padding: 0.25em; 
+	margin: 0; 
+}
+		
+li { 
+	text-indent: 0; 
+	display: inline; 
+	background-color: #f0f0f0; 
+	padding: 0.15em; 
+}
+		
+a { 
+	float: right; 
+	background-color: navy; 
+	color: white; 
+	padding: 0.25em; 
+	margin: 0.25em; 
+	text-decoration: none; 
+}
+		
+a:hover {
+	background-color: #a0a0a0;
+}
+
+.error {
+	font-family: sans, helvetica;
+	font-size: 0.75em;
+	color: red; 
+}
+
+.buttons { 
+	margin-top: 0.5em;
+}
+
+fieldset {
+	background-color: #fdfdfd;
+}
+
+button {
+	font-size: 0.90em;
+	box-shadow: 2px 2px 5px grey;
+	padding: 0.5em;
+	border: none; 
+}
+
+button[type=submit] {
+	background-color: #f5ffe6;
+}
+
+button[type=reset] {
+	background-color: #fde8ec;
+}
+
+button:hover {
+	box-shadow: 1px 1px 5px grey;
+}
+
+button[type=submit]:hover {
+	color: green;
+}
+
+button[type=reset]:hover {
+	color: crimson;
+}
+
+span {
+	margin-right: 0.50em;
+}
